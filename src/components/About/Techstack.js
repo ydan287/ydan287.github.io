@@ -4,49 +4,51 @@ import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
   DiMongodb,
   DiPython,
   DiGit,
 } from "react-icons/di";
+import { FaAws, FaDocker, FaNode, FaRust, FaVuejs } from "react-icons/fa";
 import {
-  SiPytorch,
-  SiFirebase,
-  SiNextdotjs,
+  
+  SiTypescript,
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiJavascript1 title="Javascript" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <FaNode title="NodeJs"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiReact title="React" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <DiMongodb title="MongoDB"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiGit title="Git"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <DiPython title="Python"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <FaRust title="Rust"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiTypescript title="Typescript"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <FaVuejs title="VueJs" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <FaAws title="AWS"/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaDocker title="Docker"/>
       </Col>
     </Row>
   );
