@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 import { FaChessKnight, FaSnowboarding } from "react-icons/fa";
 import { GiJourney } from "react-icons/gi"
 import { RiParentFill } from "react-icons/ri"
