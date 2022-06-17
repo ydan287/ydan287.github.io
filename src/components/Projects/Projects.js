@@ -9,7 +9,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="green">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
@@ -27,7 +27,7 @@ function Projects() {
             <ProjectCard
               title="Asset Management"
               description="Developed a product that was in charge of allocating and liquidating crypto-assets between different crypto wallets, bank accounts, and cryptocurrency exchange accounts. The frontend of the product was written with React and the backend with Typescript."
-              techStack={["devicon-react-original-wordmark colored", "devicon-express-original colored", "devicon-typescript-plain colored", "devicon-amazonwebservices-plain-wordmark colored", "devicon-mongodb-plain-wordmark colored", "devicon-nestjs-plain colored"]}
+              techStack={["devicon-react-original-wordmark colored", "devicon-express-original", "devicon-typescript-plain colored", "devicon-amazonwebservices-plain-wordmark colored", "devicon-mongodb-plain-wordmark colored", "devicon-nestjs-plain colored"]}
             />
           </Col>
 
@@ -35,7 +35,7 @@ function Projects() {
             <ProjectCard
               title="Data Feed"
               description="Developed a data accessabilty product. The product was used to collect data from variuos cryptocurrency exchanges. The data was aggregated to other services and to diffrent databases in order to be queried and used for backtesting."
-              techStack={["devicon-typescript-plain colored", "devicon-amazonwebservices-plain-wordmark colored", "devicon-apachekafka-original-wordmark colored", "devicon-docker-plain colored", "devicon-terraform-plain-wordmark colored"]}
+              techStack={["devicon-typescript-plain colored", "devicon-amazonwebservices-plain-wordmark colored", "devicon-apachekafka-original-wordmark", "devicon-docker-plain colored", "devicon-terraform-plain-wordmark colored"]}
             />
           </Col>
 
@@ -51,7 +51,7 @@ function Projects() {
             <ProjectCard
               title="Cryptocurrency Trading Platform"
               description="Designed and developed a cryptocurrency trading platform. The platform was written mainly in Rust. The stack included Typescript, Node, AWS(ECS+S3+EC2) , RabbitMQ"
-              techStack={["devicon-typescript-plain colored", "devicon-rust-plain colored", "devicon-docker-plain colored"]}
+              techStack={["devicon-typescript-plain colored", "devicon-rust-plain", "devicon-docker-plain colored"]}
             />
           </Col>
         </Row>

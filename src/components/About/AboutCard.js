@@ -11,7 +11,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone, I am <span className="purple">Yoav Danieli </span>
+            Hi everyone, I am <span className="green">Yoav Danieli </span>
             <br />I am a computer scientist graduate from Technion - Israel Institute of Technology. I have been developing web applications and software services for over four years.
             <br />
             <br />

@@ -17,14 +17,14 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="green"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
               I am a software enthusiast with experience developing software solutions from design to production.
               <br />
               <br />Extensive knowledge in
               <i>
-                <b className="purple"> Full-Stack web applications.. </b>
+                <b className="green"> Full-Stack web applications.. </b>
               </i>
               <br />
               <br />
@@ -47,7 +47,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="green">connect </span>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
