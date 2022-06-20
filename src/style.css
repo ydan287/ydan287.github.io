@@ -1,15 +1,11 @@
 html {
-  --section-background-color: linear-gradient(
-    to bottom left,
-    #1D5C63,
-    rgba(12, 8, 24, 0.904)
-  );
+  --section-background-color: linear-gradient(to bottom left,
+      #1D5C63,
+      rgba(12, 8, 24, 0.904));
 
-  --image-gradient: linear-gradient(
-    to bottom left,
-    #1D5C63,
-    rgba(12, 10, 22, 0.863)
-  );
+  --image-gradient: linear-gradient(to bottom left,
+      #1D5C63,
+      rgba(12, 10, 22, 0.863));
   --imp-text-color0: #80e4df;
   --imp-text-color1: #4cbbb5;
   --imp-text-color2: #398b87;
@@ -68,13 +64,15 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--imp-text-color1); opacity: 0.959;
+  background: var(--imp-text-color1);
+  opacity: 0.959;
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--imp-text-color1); opacity: 0.911;
+  background: var(--imp-text-color1);
+  opacity: 0.911;
   border-radius: 12px;
 }
 
@@ -152,16 +150,18 @@ button:focus {
     font-size: 1.4rem !important;
     background-color: #181a27 !important;
   }
+
   .navbar-nav .nav-item a::after {
     display: none !important;
   }
 }
+
 .navbar-brand {
-  color: var(--text-default-color) !important;
+  /* color: var(--text-default-color) !important; */
 }
 
 .logo {
-  height: 1.4em !important;
+  height: 2.5em !important;
   width: 2.5em !important;
 }
 
@@ -215,10 +215,14 @@ button:focus {
 /* Home section */
 /* --------- */
 .wave {
-  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.1s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  animation-name: wave-animation;
+  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s;
+  /* Change to speed up or slow down */
+  animation-iteration-count: infinite;
+  /* Never stop waving :) */
+  transform-origin: 70% 70%;
+  /* Pivot around the bottom-left palm */
   display: inline-block;
 }
 
@@ -226,28 +230,38 @@ button:focus {
   0% {
     transform: rotate(0deg);
   }
+
   10% {
     transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
+  }
+
+  /* The following five values can be played with to make the waving more or less extreme */
   20% {
     transform: rotate(-8deg);
   }
+
   30% {
     transform: rotate(14deg);
   }
+
   40% {
     transform: rotate(-4deg);
   }
+
   50% {
     transform: rotate(10deg);
   }
+
   60% {
     transform: rotate(0deg);
-  } /* Reset for the last half to pause */
+  }
+
+  /* Reset for the last half to pause */
   100% {
     transform: rotate(0deg);
   }
 }
+
 #tsparticles {
   position: fixed !important;
   background-repeat: no-repeat !important;
@@ -295,6 +309,7 @@ button:focus {
   color: var(--imp-text-color1) !important;
   font-weight: 600 !important;
 }
+
 .Typewriter__cursor {
   font-size: 2.4em !important;
   color: var(--imp-text-color1) !important;
@@ -306,6 +321,7 @@ button:focus {
     font-weight: 500 !important;
     position: absolute !important;
   }
+
   .Typewriter__cursor {
     display: none !important;
   }
@@ -423,6 +439,19 @@ button:focus {
   height: auto !important;
 }
 
+.project-card-title {
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+.project-card-logo {
+  height: 50px;
+  width: 50px;
+  margin-right: 16px;
+  padding: 8px;
+  border-radius: 100%;
+}
+
 .project-card-view {
   box-shadow: 0 4px 5px 3px rgba(53, 136, 104, 0.459) !important;
   color: var(--text-default-color) !important;
@@ -431,6 +460,7 @@ button:focus {
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
+
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
@@ -491,10 +521,12 @@ button:focus {
   background-color: var(--imp-text-color4) !important;
   border-color: var(--imp-text-color4) !important;
 }
+
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
 }
+
 .project-heading {
   color: var(--text-default-color) !important;
   font-size: 2.3em !important;
@@ -540,6 +572,7 @@ button:focus {
   overflow: hidden !important;
   border: 2.2px solid rgba(76, 128, 110, 0.883) !important;
 }
+
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;
@@ -562,6 +595,7 @@ button:focus {
     padding-top: 0 !important;
   }
 }
+
 /* --------- */
 /* Resume */
 /* --------- */
@@ -599,6 +633,7 @@ button:focus {
     padding-left: 15px !important;
   }
 }
+
 .resume .resume-title {
   font-size: 2em;
   font-weight: 700;
@@ -675,10 +710,12 @@ button:focus {
   animation-fill-mode: forwards;
   animation-duration: 0.85s;
 }
+
 @keyframes likeAnimation {
   0% {
     transform: scale(1.5);
   }
+
   100% {
     transform: scale(1);
   }
@@ -702,6 +739,7 @@ button:focus {
   background-color: var(--imp-text-color4) !important;
   border-color: var(--imp-text-color4) !important;
 }
+
 .fork-btn-inner::after {
   display: none !important;
 }

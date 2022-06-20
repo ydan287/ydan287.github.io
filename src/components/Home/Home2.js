@@ -18,7 +18,7 @@ function Home2() {
               LET ME <span className="green"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a software enthusiast with experience developing software solutions from design to production.
+              I am a freelance developer with experience developing software solutions from design to production.
               <br />
               <br />Extensive knowledge in
               <i>
@@ -43,10 +43,8 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="green">connect </span>with me
-            </p>
+            <h1><b className="green"> OPEN</b> to new projects</h1>
+            
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
@@ -79,6 +77,9 @@ function Home2() {
                 </a>
               </li>
             </ul>
+            <p>
+              Feel free to <span className="green">connect </span>with me
+            </p>
           </Col>
         </Row>
       </Container>
