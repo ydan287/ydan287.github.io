@@ -1,11 +1,4 @@
 html {
-  --section-background-color: linear-gradient(to bottom left,
-      #1D5C63,
-      rgba(12, 8, 24, 0.904));
-
-  --image-gradient: linear-gradient(to bottom left,
-      #1D5C63,
-      rgba(12, 10, 22, 0.863));
   --imp-text-color0: #80e4df;
   --imp-text-color1: #4cbbb5;
   --imp-text-color2: #398b87;
@@ -431,7 +424,6 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
 }
 
 .project-card {
@@ -605,7 +597,6 @@ button:focus {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
   color: var(--text-default-color) !important;
 }
 
