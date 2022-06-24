@@ -467,6 +467,10 @@ button:focus {
   box-shadow: 0 4px 4px 5px rgba(72, 144, 132, 0.561) !important;
 }
 
+.tech-stack {
+  color: var(--text-default-color) !important;
+}
+
 .blog-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
@@ -538,13 +542,7 @@ button:focus {
 /* About */
 /* --------- */
 
-.about-section {
-  position: relative !important;
-  padding-top: 150px !important;
-  padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
-  color: var(--text-default-color) !important;
-}
+
 
 .tech-icons {
   font-size: 4.5em !important;

@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import vonageLogo from "../../Assets/Vonage.jpeg"
 import LQFILogo from "../../Assets/LQFI.jpeg"
 import personalLogo from "../../Assets/logo.jpeg"
+import Techstack from "./Techstack";
 
 function Projects() {
   return (
@@ -61,8 +62,12 @@ function Projects() {
             />
           </Col>
 
-          
+
         </Row>
+        <h1 className="project-heading">
+          Professional <strong className="green">Skillset </strong>
+        </h1>
+        <Techstack />
       </Container>
     </Container>
   );

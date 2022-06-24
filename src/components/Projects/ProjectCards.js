@@ -8,7 +8,7 @@ function ProjectCards(props) {
     <Card className="project-card-view">
       <Card.Body>
         <Card.Title className="project-card-title">
-          {props.logo ? <img class={"project-card-logo"} alt="logo" src={props.logo}/>: <div></div>}
+          {props.logo ? <img className={"project-card-logo"} alt="logo" src={props.logo}/>: <div></div>}
           {props.title}
         </Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
@@ -17,7 +17,7 @@ function ProjectCards(props) {
 
       </Card.Body>
       <Card.Footer>
-        {(props.techStack || []).map(classname => <i class={`${classname} display-6 m-2`}></i>)}
+        {(props.techStack || []).map((classname,index) => <i key={index} className={`${classname} display-6 m-2`}></i>)}
       </Card.Footer>
     </Card>
   );

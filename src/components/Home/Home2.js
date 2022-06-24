@@ -7,6 +7,9 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FaChessKnight, FaSnowboarding } from "react-icons/fa";
+import { GiJourney } from "react-icons/gi"
+import { RiParentFill } from "react-icons/ri"
 
 function Home2() {
   return (
@@ -22,18 +25,34 @@ function Home2() {
               <br />
               <br />Extensive knowledge in
               <i>
-                <b className="green"> Full-Stack web applications.. </b>
+                <b className="green"> Full-Stack web applications.</b>
               </i>
               <br />
               <br />
-              I love solving algorithmic problems, coding challenges and optimization issues.
+              Graduated  from Technion - Israel Institute of Technology. I have been developing web applications and software services for over four years. I love solving algorithmic problems, coding challenges and optimization issues.
               &nbsp;
-              
+
               <br />
               <br />
               My goal is to sharpen my technological skills and gain knowledge and experience by working and interacting with top talent engineers and product experts.
-
+              <br />
+              <br />
+              Aside from coding, I also enjoy:
             </p>
+            <ul>
+              <li className="about-activity">
+                <FaChessKnight /> Playing board games
+              </li>
+              <li className="about-activity">
+                <FaSnowboarding /> Snowboarding
+              </li>
+              <li className="about-activity">
+                <GiJourney /> Travelling
+              </li>
+              <li className="about-activity">
+                <RiParentFill /> Parenting
+              </li>
+            </ul>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -44,7 +63,7 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1><b className="green"> OPEN</b> to new projects</h1>
-            
+
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
