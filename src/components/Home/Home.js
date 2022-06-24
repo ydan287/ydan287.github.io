@@ -21,7 +21,7 @@ function Home() {
         <Container className="home-content">
           <Row>
             <h1 style={{ paddingBottom: 15, textAlign: "center" }} className="heading">
-              Hi I'M Yoav Danieli
+              Hi I'm Yoav Danieli
             </h1>
             <Type />
           </Row>
