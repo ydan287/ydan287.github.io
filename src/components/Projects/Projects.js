@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
+
 import vonageLogo from "../../Assets/Vonage.jpeg"
 import LQFILogo from "../../Assets/LQFI.jpeg"
 import personalLogo from "../../Assets/logo.jpeg"
@@ -10,7 +10,8 @@ import Techstack from "./Techstack";
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
+      
+      
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="green">Works </strong>

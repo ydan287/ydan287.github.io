@@ -272,11 +272,12 @@ button:focus {
 
 .home-header {
   padding-top: 80px !important;
+  justify-content: center;
 }
 
 .home-section {
   position: relative;
-  z-index: -1;
+  /* z-index: -1; */
   /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
@@ -287,7 +288,9 @@ button:focus {
 .home-content {
   padding: 9rem 0 2rem !important;
   color: var(--text-default-color);
-  text-align: left;
+  text-align: center;
+  justify-content: center;
+  /* z-index: 1; */
 }
 
 .heading {
