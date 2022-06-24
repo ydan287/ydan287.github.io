@@ -20,6 +20,23 @@ button:focus {
 /* --------- */
 /*  Preloader */
 /* --------- */
+
+#preloader-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(to left, #1D5C63, rgb(20 15 35));
+}
+
+#preloader-none-container {
+  opacity: 0;
+}
+
 #preloader {
   position: fixed;
   top: 0;
@@ -27,8 +44,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0d302d;
-  background-image: url(./Assets/pre.svg);
+  background-image: url(./Assets/bean-eater.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
