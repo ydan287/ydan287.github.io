@@ -1,1 +1,1 @@
-My personal portfolio. Forked from [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). I used his template and added some stuff of my own. thanks!
+My personal portfolio. Developed with react and deployed with github pages.
